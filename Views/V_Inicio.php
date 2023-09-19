@@ -15,6 +15,6 @@
     <nav></nav>
   </header>
   <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et nobis eum doloremque aspernatur? Asperiores aperiam voluptatem aut illum quasi. Nulla at eveniet perspiciatis quos. At impedit repellendus velit fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro ratione culpa. Iure, voluptate ipsam vitae accusamus distinctio et vel, aliquam veniam recusandae ducimus, tempore facere maxime natus iusto excepturi.</p>
-  <h2>Que onda Negro en que estas¿</h2>
+  <h2>Que onda Negro en que ehhhhstas¿</h2>
 </body>
 </html>
