@@ -11,22 +11,7 @@
   <title>Ripley</title>
 </head>
 <body>
-  <header>
-    <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="img/ripleyapp.webp" class="ripleyapp"></a>
-      <nav>
-        <a href="#"><img src="img/logowhite.webp" class="logo"></a>
-        <a href="#" class="text-list">
-          <div class="categorias">
-            <button class="botonlist"><i class="bi bi-list"></i></button>
-            <p class="menucate">Menú de categorias</p>
-          </div>
-        </a>
-        <div class="buscar">
-          <input type="search" placeholder="Buscar productos" class="buscador">
-          <button type="submit" class="enviar"><i class="bi bi-search"></i></button>
-        </div>
-      </nav>
-    </header>
+    <?php include './Components/Navbar.php' ?>
 </body>
 </html>
 
