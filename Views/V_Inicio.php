@@ -24,10 +24,8 @@
           <input type="search" placeholder="Buscar productos" class="buscador">
           <button type="submit" class="enviar"><i class="bi bi-search"></i></button>
         </div>
-        
       </nav>
     </header>
-    
 </body>
 </html>
 
