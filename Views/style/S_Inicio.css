@@ -1,16 +1,63 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #fff;
 }
 body{
   font-family: sans-serif;
+}
+header{
   background-color: black;
 }
 .ripleyapp{
   width: 100%;
-  
 }
-.parrafo{
-  border: 2px solid #000;
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 1em;
+}
+.logo{
+  height: 2em;
+  padding: 0 0.5em;
+}
+.categorias{
+  display: flex;
+  align-items: center;
+  width: 10em;
+}
+.botonlist{
+  background-color: #6C3483;
+  border: none;
+  color: white;
+  font-size: 2em;
+  border-radius: 100%;
+  padding: 0.1em;
+}
+.text-list{
+  color: white;
+  text-decoration: none;
+}
+.menucate{
+  padding: 0 1em;
+}
+.buscar{
+  display: flex;
+  align-items: center;
+}
+.buscador{
+  border: none;
+  border-radius: 0.2em 0 0 0.2em;
+  padding: 1em;
+  font-weight: bold;
+  outline: none;
+}
+.enviar{
+  padding: 1em;
+  border: none;
+  background-color:#424949 ;
+  border-radius: 0 0.2em 0.2em 0;
+  color: white;
 }
