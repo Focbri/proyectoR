@@ -1,22 +1,22 @@
-<div>
-    <div>
+<div class="contenedor-header">
+    <div class="banner-header">
         <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="img/ripleyapp.webp" class="ripleyapp"></a>
     </div>
-    <div>
-        <div>
+    <div class="contenedor-navbar">
+        <div class="logo-ripley">
             <a href="#"><img src="img/logowhite.webp" class="logo"></a>
         </div>
-        <div>
-            <button>
-                <div>
+        <div class="contenedor-menuDesplegable">
+            <a>
+                <div class="icono-menuDesplegable">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17h18M3 12h18M3 7h18"/></svg>
                 </div>
-                <div>
-                    <p>
-                        Menú de categorias
-                    </p>
-                </div>
-            </button>
+            </a>
+            <div class="menu-text">
+                <p>
+                    Menú de categorias
+                </p>
+            </div>
         </div>
         <div class="buscar">
             <input type="search" placeholder="Buscar productos" class="buscador">
