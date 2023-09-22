@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Public/css/navbar.css">
-    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
     <header class="ripley-header">
@@ -13,7 +12,7 @@
             <div class="banner-header">
                 <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="../Public/img/ripleyapp.webp" class="ripleyapp"></a>
             </div>
-            <nav class="navbar-ripley">
+            <nav class="bg-green-500">
                 <div class="contenedor-navbar">
                     <div class="logo-ripley">
                         <a href="#"><img src="../Public/img/logowhite.webp" class="logo"></a>
