@@ -5,10 +5,12 @@ var verificador = 0;
 
 COMPROBAR.addEventListener("click",()=>{
   if(verificador === 0){
-    LOGIN.style.display = "block";
+    LOGIN.style.visibility = "visible";
+    LOGIN.style.opacity = "1";
     verificador = 1;
   }else{
-    LOGIN.style.display = "none";
+    LOGIN.style.visibility = "hidden";
+    LOGIN.style.opacity = "0";
     verificador = 0;
   }
 })
