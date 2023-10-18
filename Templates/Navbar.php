@@ -35,13 +35,16 @@
                                 <i class="bi bi-person login"></i>
                             </button>
                             <div class="logeo" id="menu-logeo">
-                                <form method="post">
-                                    <input type="text" placeholder="DNI" class="campo">
-                                    <input type="password" placeholder="Contraseña" class="campo">
+                                <form action ="./App/Model/Login.php" method="post">
+                                    <input type="text" placeholder="DNI" class="campo" name="dni">
+                                    <input type="password" placeholder="Contraseña" class="campo" name="contraseña">
                                     <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
-                                    <button type="submit" class="inicio">Iniciar sesión</button>
+                                    <button type="submit" class="inicio" name="iniciar">Iniciar sesión</button>
                                     <p class="registro-text">¿Eres nuevo en Ripley?</p>
                                 </form>
+                                <?php
+                                    require("./App/Model/Login.php");
+                                ?>
                                 <form action="registrar.php">
                                     <input type="submit" value="Crear una cuenta" class=registrar>
                                 </form>
