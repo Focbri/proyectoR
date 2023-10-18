@@ -28,40 +28,34 @@
                             <button type="submit" class="enviar"><i class="bi bi-search"></i></button>
                         </div>
                     </div>
-                    <div class="content-logP">
-                        <div class="content-LR">
-                            <div>
-                                <button class="icon-login">
-                                    <i class="bi bi-person login"></i>
-                                </button>       
+                    <!--Boton Logeo / Carrito y formulario-->
+                    <div class="usuario">
+                        <div class="icon-Login">
+                            <button class="icon-login" id="id-Login">
+                                <i class="bi bi-person login"></i>
+                            </button>
+                            <div class="logeo" id="menu-logeo">
+                                <form method="post">
+                                    <input type="text" placeholder="DNI" class="campo">
+                                    <input type="password" placeholder="Contraseña" class="campo">
+                                    <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
+                                    <button type="submit" class="inicio">Iniciar sesión</button>
+                                    <p class="registro-text">¿Eres nuevo en Ripley?</p>
+                                </form>
+                                <form action="registrar.php">
+                                    <input type="submit" value="Crear una cuenta" class=registrar>
+                                </form>
                             </div>
-                            <div>
-                                <button class="icon-cart">
-                                    <i class="bi bi-cart2 cart"></i>
-                                </button>
-                            </div>
+                        </div>
+                        <div>
+                            <button class="icon-cart">
+                                <i class="bi bi-cart2 cart"></i>
+                            </button>
                         </div>
                     </div>
-                    <div class="content-logP">
-                            <div class="content-loginP">
-                                <div class="login-form">
-                                    <input type="text" placeholder="Usuario" required>
-                                    <input type="password" placeholder="Contraseña" required>
-                                    <a href="">¿Olvidaste tu Contraseña?</a>
-                                    <button class="btn-login">Iniciar Sesión</button>
-                                    <a href="">¿Eres nuevo en Ripley?</a>
-                                    <button class="btn-register">Crea tu cuenta</button>
-                                </div>
-                            </div>
-                            <div class="content-cardR">
-                                <a href="">
-                                <img src="./Public/img/tarjeta_ripley_nuevo_menu.svg" alt="" class="tarjeta-menu">
-                                </a>
-                            </div>
-                        </div>
                 </div>
-            </nav>
-            
+            </nav>           
         </div>
     </section>
 </header>
+<script src="./Public/js/navbar.js"></script>

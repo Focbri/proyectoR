@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .contenedor-header{
     color: #fff;
@@ -71,34 +72,52 @@
     background-color: transparent;
     border: none;
 }
-.content-loginP{
+
+.usuario{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: purple;
 }
-.tarjeta-menu{
-    width: 2rem;
+.logeo{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 3px;
+    width: 11em;
+    height: 12em;
 }
-.login-form{
-    width: 12rem;
-    background: gray;
-    padding: 1.5rem;
-}
-.btn-login{
-    display: block;
-    background-color: violet;
-    padding: .25rem 2rem;
-}
-.btn-register{
-    display: block;
-    padding: .25rem 2rem;
-}
-.content-logP{
+.campo{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
-.content-cardR{
-    background: purple;
+.recuperar{
+    font-size: 0.8em;
+    color: #70578b;
+}
+.inicio{
+    background-color: #70578b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    width: 100%;
+    margin-top: 1em;
+}
+.registro-text{
+    margin-top: 1em;
+    color: #6a6a6a;
+    font-size: 0.8em;
+}
+.registrar{
+    background-color: transparent;
+    color: #727272;
+    border: 1px solid black;
+    font-size: 0.8em;
+    padding: 0.5em;
+    margin-top: 1em;
+    width: 100%;
 }
