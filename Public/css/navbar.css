@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.contenedor-header{
+    color: #fff;
+}
 .ripley-header{
     background: #000;
 }
@@ -17,6 +20,7 @@
     color: #fff;
     height: 70px;
     align-items: center;
+    gap: 2rem;
 }
 .logo-ripley img{
     height: 40px;
@@ -44,4 +48,57 @@
 .contenedor-menuDesplegable a{
     display: flex;
     align-items: center;
+}
+.content-LC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-login{
+    background-color: transparent;
+    border: none;
+}
+.login{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.cart{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.icon-cart{
+    background-color: transparent;
+    border: none;
+}
+.content-loginP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: purple;
+}
+.tarjeta-menu{
+    width: 2rem;
+}
+.login-form{
+    width: 12rem;
+    background: gray;
+    padding: 1.5rem;
+}
+.btn-login{
+    display: block;
+    background-color: violet;
+    padding: .25rem 2rem;
+}
+.btn-register{
+    display: block;
+    padding: .25rem 2rem;
+}
+.content-logP{
+    display: flex;
+    flex-direction: column;
+}
+.content-cardR{
+    background: purple;
 }

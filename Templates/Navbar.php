@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles.css" rel="stylesheet">
-</head>
-<body>
-    <header class="ripley-header">
-        <section>
+<header class="ripley-header">
+    <section>
         <div class="contenedor-header">
             <div class="banner-header">
-                <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="../Public/img/ripleyapp.webp" class="ripleyapp"></a>
+                <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="./Public/img/ripleyapp.webp" class="ripleyapp"></a>
             </div>
-            <nav class="bg-green-500">
+            <nav class="navbar-ripley">
                 <div class="contenedor-navbar">
                     <div class="logo-ripley">
-                        <a href="#"><img src="../Public/img/logowhite.webp" class="logo"></a>
+                        <a href="#"><img src="./Public/img/logowhite.webp" class="logo"></a>
                     </div>
                     <div class="contenedor-menuDesplegable">
                         <a>
@@ -36,17 +28,40 @@
                             <button type="submit" class="enviar"><i class="bi bi-search"></i></button>
                         </div>
                     </div>
-                    <div>
-                    
+                    <div class="content-logP">
+                        <div class="content-LR">
+                            <div>
+                                <button class="icon-login">
+                                    <i class="bi bi-person login"></i>
+                                </button>       
+                            </div>
+                            <div>
+                                <button class="icon-cart">
+                                    <i class="bi bi-cart2 cart"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        
-                    </div>
+                    <div class="content-logP">
+                            <div class="content-loginP">
+                                <div class="login-form">
+                                    <input type="text" placeholder="Usuario" required>
+                                    <input type="password" placeholder="Contraseña" required>
+                                    <a href="">¿Olvidaste tu Contraseña?</a>
+                                    <button class="btn-login">Iniciar Sesión</button>
+                                    <a href="">¿Eres nuevo en Ripley?</a>
+                                    <button class="btn-register">Crea tu cuenta</button>
+                                </div>
+                            </div>
+                            <div class="content-cardR">
+                                <a href="">
+                                <img src="./Public/img/tarjeta_ripley_nuevo_menu.svg" alt="" class="tarjeta-menu">
+                                </a>
+                            </div>
+                        </div>
                 </div>
             </nav>
             
         </div>
-        </section>
-    </header>
-</body>
-</html>
+    </section>
+</header>

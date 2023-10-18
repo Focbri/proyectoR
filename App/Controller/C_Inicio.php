@@ -1,3 +1,3 @@
 <?php
-  require('Views/V_Inicio.php');
+  require('./App/Views/V_Inicio.php');
 ?>
