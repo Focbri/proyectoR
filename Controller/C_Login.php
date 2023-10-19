@@ -11,8 +11,7 @@
       if($registros !=0){
         $resolucion = "Logeo exitoso";
       }else{
-
-        $resolucion = "Usuario no existe";
+        header("Location:../index.php");
       }
     }
     require("../login.php");
