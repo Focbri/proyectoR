@@ -1,0 +1,22 @@
+.presentacion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.presentacion h1{
+  font-size: 3em;
+  color: #70578b;
+  padding: 1em;
+}
+.presentacion p{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #6a6a6a;
+}
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5em;
+}

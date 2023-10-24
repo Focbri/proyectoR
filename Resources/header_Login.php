@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS-->
   <link rel="stylesheet" href="Resources/header.css">
+  <link rel="stylesheet" href="Resources/login.css">
   <link rel="icon" href="Resources/img/logowhite.webp">
   <!--BOOTSTRAP 5-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
@@ -48,14 +49,7 @@
                                 <i class="bi bi-person login"></i>
                             </button>
                             <div class="logeo" id="menu-logeo">
-                                <form action ="Controller/C_Login.php" method="post">
-                                    <input type="text" placeholder="DNI" class="campo" name="dni">
-                                    <input type="password" placeholder="Contraseña" class="campo" name="contraseña">
-                                    <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
-                                    <button type="submit" class="inicio" name="iniciar">Iniciar sesión</button>
-                                    <p class="registro-text">¿Eres nuevo en Ripley?</p>
-                                </form>
-                                
+                                <p>Usuario</p>
                             </div>
                         </div>
                         <div>
