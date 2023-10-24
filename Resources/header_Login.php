@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS-->
-  <link rel="stylesheet" href="../Resources/header.css">
-  <link rel="icon" href="../Resources/img/logowhite.webp">
+  <link rel="stylesheet" href="Resources/header.css">
+  <link rel="icon" href="Resources/img/logowhite.webp">
   <!--BOOTSTRAP 5-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <title>Ripley</title>
@@ -15,12 +15,12 @@
     <section>
         <div class="contenedor-header">
             <div class="banner-header">
-                <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="../Resources/img/ripleyapp.webp" class="ripleyapp"></a>
+                <a href="https://simple.ripley.com.pe/minisitios/especial/app-ripley-peru" target="_blank"><img src="Resources/img/ripleyapp.webp" class="ripleyapp"></a>
             </div>
             <nav class="navbar-ripley">
                 <div class="contenedor-navbar">
                     <div class="logo-ripley">
-                        <a href="#"><img src="../Resources/img/logowhite.webp" class="logo"></a>
+                        <a href="#"><img src="Resources/img/logowhite.webp" class="logo"></a>
                     </div>
                     <div class="contenedor-menuDesplegable">
                         <a>

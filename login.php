@@ -1,6 +1,6 @@
 <!--Conexión a la BD-->
-<?php require_once('Model/Conexion.php'); 
-  echo $resolucion;
+<?php require_once("Controller/C_Login.php");
+  //echo $resolucion;
 ?>
 <!--HTML-->
 <?php require_once('Resources/header_Login.php');?>

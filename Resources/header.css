@@ -123,3 +123,14 @@
   margin-top: 1em;
   width: 100%;
 }
+.create{
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: 3px solid black;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 0.5em;
+  width: 100%;
+  margin-top: 1em;
+}

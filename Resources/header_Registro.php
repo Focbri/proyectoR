@@ -48,7 +48,7 @@
                                 <i class="bi bi-person login"></i>
                             </button>
                             <div class="logeo" id="menu-logeo">
-                                <form action ="login.php" method="post">
+                                <form action ="Controller/C_Login.php" method="post">
                                     <input type="text" placeholder="DNI" class="campo" name="dni">
                                     <input type="password" placeholder="Contraseña" class="campo" name="contraseña">
                                     <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>

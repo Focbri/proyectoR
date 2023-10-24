@@ -1,5 +1,5 @@
 <?php
-  require("../Model/Conexion.php");
+  require("Model/Conexion.php");
   if (isset($_POST["iniciar"])){
     if(strlen($_POST["dni"]) > 0 && strlen($_POST["contraseña"]) > 0){
       $dni = trim($_POST["dni"]);
@@ -11,11 +11,10 @@
       if($registros !=0){
         $resolucion = "Logeo exitoso";
       }else{
-        header("Location:../index.php");
+        header("Location:index.php");
       }
-      require("../login.php");
     }else{
-      header("Location:../index.php");
+      header("Location:index.php");
     }
   }
 ?>
