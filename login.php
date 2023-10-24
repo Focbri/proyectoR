@@ -5,5 +5,5 @@
 <!--HTML-->
 <?php require_once('Resources/header_Login.php');?>
 
-<script src='../Resources/js/navbar.js'></script>
+<script src='Resources/js/navbar.js'></script>
 <?php require_once('Resources/footer_Login.php');?>
