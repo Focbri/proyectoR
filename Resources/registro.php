@@ -21,8 +21,7 @@
       <input type="text" placeholder="Ingresa tu DNI" class="campo" name="dni">
       <input type="email" placeholder="Ingresa un email válido" class="campo" name="email">
       <input type="password" placeholder="Crea tu contraseña" class="campo" name="contraseña">
-      <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
-      <button type="submit" class="inicio" name="iniciar">Iniciar sesión</button>
+      <button type="submit" class="inicio" name="iniciar">Registrarme</button>
     </form>
   </div>
   </div>
