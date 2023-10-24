@@ -49,8 +49,8 @@
                             </button>
                             <div class="logeo" id="menu-logeo">
                                 <form action ="login.php" method="post">
-                                    <input type="text" placeholder="DNI" class="campo" name="dni">
-                                    <input type="password" placeholder="Contraseña" class="campo" name="contraseña">
+                                    <input type="text" placeholder="DNI" class="campo" name="dni" required>
+                                    <input type="password" placeholder="Contraseña" class="campo" name="contraseña" required>
                                     <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
                                     <button type="submit" class="inicio" name="iniciar">Iniciar sesión</button>
                                 </form>

@@ -16,11 +16,11 @@
   <div class="campos">
     <h2>Completa el siguiente formulario</h2>
     <form action="Controller/C_Registro.php" method="post">
-      <input type="text" placeholder="Ingresa tu nombre" class="registro" name="nombre">
-      <input type="text" placeholder="Ingresa tu apellido" class="registro" name="apellido">
-      <input type="text" placeholder="Ingresa tu DNI" class="registro" name="dni">
-      <input type="email" placeholder="Ingresa un email válido" class="registro" name="email">
-      <input type="password" placeholder="Crea tu contraseña" class="registro" name="contraseña">
+      <input type="text" placeholder="Ingresa tu nombre" class="registro" name="nombre" required>
+      <input type="text" placeholder="Ingresa tu apellido" class="registro" name="apellido" required>
+      <input type="text" placeholder="Ingresa tu DNI" class="registro" name="dni" required>
+      <input type="email" placeholder="Ingresa un email válido" class="registro" name="email" required>
+      <input type="password" placeholder="Crea tu contraseña" class="registro" name="contraseña" required>
       <button type="submit" class="inicio" name="iniciar">Registrarme</button>
     </form>
   </div>
