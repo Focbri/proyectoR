@@ -1,7 +1,7 @@
 <?php
   require("../Model/Conexion.php");
   if (isset($_POST["iniciar"])){
-    if(strlen($_POST["dni"]) >= 1 && strlen($_POST["contraseña"]) >= 1){
+    if(strlen($_POST["dni"]) > 0 && strlen($_POST["contraseña"]) > 0){
       $dni = trim($_POST["dni"]);
       $contraseña = trim($_POST["contraseña"]);
       //CONSULTA
@@ -13,7 +13,9 @@
       }else{
         header("Location:../index.php");
       }
+      require("../login.php");
+    }else{
+      header("Location:../index.php");
     }
-    require("../login.php");
   }
 ?>
