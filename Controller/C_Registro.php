@@ -1,4 +1,4 @@
 <?php 
-  require("Model/Conexion.php");
+  require("../Model/Conexion.php");
   echo ("Registro");
 ?>

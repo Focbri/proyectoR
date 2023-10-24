@@ -49,7 +49,7 @@
                                 <i class="bi bi-person login"></i>
                             </button>
                             <div class="logeo" id="menu-logeo">
-                                <form action ="Controller/C_Login.php" method="post">
+                                <!--<form action ="Controller/C_Login.php" method="post">
                                     <input type="text" placeholder="DNI" class="campo" name="dni" required>
                                     <input type="password" placeholder="Contraseña" class="campo" name="contraseña" required>
                                     <a href="recuperar.php" class="recuperar">¿Olvidaste tu contraseña?</a>
@@ -58,7 +58,7 @@
                                 <p class="registro-text">¿Eres nuevo en Ripley?</p>
                                 <form action="registro.php" method="post">
                                     <button type="submit" class="create" name="create">Crear una cuenta</button>
-                                </form>
+                                </form>-->
                             </div>
                         </div>
                         <div>
